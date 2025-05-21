@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f3;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #2f4f4f;
+    color: white;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.impacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.impacto img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.texto {
+    padding: 20px;
+}
+
+.texto h2 {
+    margin-bottom: 10px;
+    color: #2e8b57;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #2f4f4f;
+    color: white;
+}
